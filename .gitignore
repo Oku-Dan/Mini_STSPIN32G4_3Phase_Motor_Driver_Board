@@ -1,0 +1,11 @@
+# KiCad-generated files and directories.
+.history/
+*-backups/
+backups/
+production/
+_autosave-*
+fp-info-cache
+~*.lck
+*.kicad_prl
+*.ioc
+fabrication-toolkit-options.json

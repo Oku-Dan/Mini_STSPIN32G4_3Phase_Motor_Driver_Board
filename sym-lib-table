@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STSPIN32")(type "KiCad")(uri "${KIPRJMOD}/STSPIN32.kicad_sym")(options "")(descr ""))
+  (lib (name "Transistor_FET_Local")(type "KiCad")(uri "${KIPRJMOD}/Transistor_FET_Local.kicad_sym")(options "")(descr ""))
+)
