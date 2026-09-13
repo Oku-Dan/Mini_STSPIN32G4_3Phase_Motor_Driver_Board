@@ -8,4 +8,5 @@ fp-info-cache
 ~*.lck
 *.kicad_prl
 *.ioc
+*.bak
 fabrication-toolkit-options.json
