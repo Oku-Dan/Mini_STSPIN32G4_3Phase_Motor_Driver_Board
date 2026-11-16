@@ -5,409 +5,6 @@
 	(uuid "ecd88f15-8943-4946-a491-ee0c99872270")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
 				(offset 1.016)
@@ -743,6 +340,719 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 22.225 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+				(at 3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "USB*C*Receptacle*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
+				(rectangle
+					(start -0.254 -17.78)
+					(end 0.254 -16.764)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 15.494)
+					(end 9.144 14.986)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 10.414)
+					(end 9.144 9.906)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 2.794)
+					(end 9.144 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
+				(rectangle
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -8.89 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -3.81)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -8.89 3.81)
+					(mid -6.985 5.7067)
+					(end -5.08 3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -3.81)
+					(mid -6.985 -5.7067)
+					(end -8.89 -3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 1.778)
+					(end 3.175 3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1724,254 +2034,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_CAN_LIN:MCP2551-I-SN"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -10.16 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MCP2551-I-SN"
-				(at 2.54 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, SOIC-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "High-Speed CAN Transceiver"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MCP2551-I-SN_0_1"
-				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MCP2551-I-SN_1_1"
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "Vref"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "CANL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "CANH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "Rs"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:L78L05_SOT89"
 			(pin_names
 				(offset 0.254)
@@ -2119,145 +2181,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3V3"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3073,6 +2996,18 @@
 		(uuid "bab97db8-1bcb-4057-ab5a-8cd279d33d4f")
 	)
 	(rectangle
+		(start 172.72 16.51)
+		(end 240.03 82.55)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d162577f-8f7d-40a2-9722-c22a6baa5c0a")
+	)
+	(rectangle
 		(start 59.69 21.59)
 		(end 77.47 35.56)
 		(stroke
@@ -3096,18 +3031,6 @@
 		)
 		(uuid "e6c18fff-c960-4451-8ae1-076191568a17")
 	)
-	(rectangle
-		(start 16.51 77.47)
-		(end 147.32 123.19)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "e822de5e-f395-4266-bcee-675fa0088f14")
-	)
 	(text "Encoder Type : SPI/ABX"
 		(exclude_from_sim no)
 		(at 93.98 45.974 0)
@@ -3118,25 +3041,25 @@
 		)
 		(uuid "0a7872bc-c0ff-4838-864f-de4ebd64b6f9")
 	)
-	(text "24V/30A"
+	(text "CAN削除"
 		(exclude_from_sim no)
-		(at 73.914 154.432 0)
+		(at 77.216 94.488 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "16a687c7-19eb-45d3-b9f5-9e68579d4256")
+		(uuid "0b7d7fbf-8e71-4e41-9fe8-8e314f251a9d")
 	)
-	(text "Rs=0V/High-Speed Mode\nMax.75mA"
+	(text "PADに配線"
 		(exclude_from_sim no)
-		(at 67.564 109.982 0)
+		(at 131.064 155.194 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "24dda14e-304b-4681-ad4e-3d033e13d19d")
+		(uuid "1c2d9a0f-799d-4852-8877-ccd2fe082338")
 	)
 	(text "5V Tolerant"
 		(exclude_from_sim no)
@@ -3199,6 +3122,16 @@
 		)
 		(uuid "663cb605-8c65-46d0-a522-e1a8456c11ab")
 	)
+	(text "PADに配線"
+		(exclude_from_sim no)
+		(at 72.898 159.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "67993e42-8353-4ee4-b92d-95605f2c3777")
+	)
 	(text "I2C規格：吸い込み電流最大3mA\n(22Ω+150Ω) x 3mA = 0.53V < 0.3Vdd"
 		(exclude_from_sim no)
 		(at 36.83 67.564 0)
@@ -3259,6 +3192,16 @@
 		)
 		(uuid "b6bef353-6a67-4aee-89c1-4195bb428906")
 	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 237.998 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bebd4260-cfc5-4d16-a68f-f5c8ff742943")
+	)
 	(text "コネクタの極性に注意!!"
 		(exclude_from_sim no)
 		(at 79.248 141.224 0)
@@ -3268,16 +3211,6 @@
 			)
 		)
 		(uuid "c027a3a2-509d-4582-bd51-d3e066010844")
-	)
-	(text "CAN-FD Interface"
-		(exclude_from_sim no)
-		(at 137.922 124.968 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dc037e3d-b716-4943-b5d3-67a4a7fc94c3")
 	)
 	(text "※SMDは1608/0402を基本とする 但しBasic優先"
 		(exclude_from_sim no)
@@ -3300,16 +3233,6 @@
 		)
 		(uuid "e2134c1e-442d-4b5a-9607-23fcbf484994")
 	)
-	(text "Vout=5V/Max.100mA/Max.350mW\n\nMax.100mA@Vin=8V\nMax.35mA@Vin=15V"
-		(exclude_from_sim no)
-		(at 127.508 89.408 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e6f9bdd8-17df-405a-9eb1-9f71dfb56d04")
-	)
 	(text "SWD and Debug Serial"
 		(exclude_from_sim no)
 		(at 46.482 184.404 0)
@@ -3331,10 +3254,10 @@
 		(uuid "fe17845d-fd95-4b12-9f82-de388406a1f2")
 	)
 	(junction
-		(at 87.63 107.95)
+		(at 190.5 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "098bb85c-cca7-4310-b847-636d20d799ad")
+		(uuid "07779199-13a0-43df-a3bb-82e8c3a36d7c")
 	)
 	(junction
 		(at 69.85 39.37)
@@ -3343,40 +3266,16 @@
 		(uuid "1865192c-95ea-4706-afdb-98c60bec6aaa")
 	)
 	(junction
-		(at 43.18 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dfc19d3-7f15-48b3-ae0a-182888d40a12")
-	)
-	(junction
 		(at 62.23 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e594000-ea20-4920-a2a8-5e3ead1c05c0")
 	)
 	(junction
-		(at 137.16 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "316b231d-579a-44fd-af54-caa841d1f125")
-	)
-	(junction
 		(at 73.66 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "423054d5-ee95-4763-a789-20602c30ebc9")
-	)
-	(junction
-		(at 48.26 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "470443f0-ba79-4c82-8290-58c7b620124c")
-	)
-	(junction
-		(at 91.44 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "520ab150-662c-4bee-860b-cf666cae6259")
 	)
 	(junction
 		(at 135.89 43.18)
@@ -3391,16 +3290,10 @@
 		(uuid "7f5ce719-2c8d-4524-abbf-80fe6af47ddf")
 	)
 	(junction
-		(at 83.82 95.25)
+		(at 190.5 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7fe0efeb-acab-463a-b8cf-b7897b1d5ec0")
-	)
-	(junction
-		(at 128.27 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8785889d-aef8-4a02-bfe2-474bf3734b6f")
+		(uuid "84ceede8-1bea-4204-9c64-74e3d2aeeefc")
 	)
 	(junction
 		(at 29.21 25.4)
@@ -3409,16 +3302,16 @@
 		(uuid "8a4a8553-a844-46ff-873f-58f8d0dac63a")
 	)
 	(junction
-		(at 118.11 101.6)
+		(at 213.36 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "95bbe9b9-8695-421c-885a-99ced8577e21")
+		(uuid "a99e0ddb-38f2-49d0-994c-af72fb6295bf")
 	)
 	(junction
-		(at 62.23 111.76)
+		(at 213.36 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "985cc837-92c9-4c7e-beb2-73db658ce5a7")
+		(uuid "b7dfc630-6df4-4a2a-8c5e-ad2d1c534fd0")
 	)
 	(junction
 		(at 66.04 25.4)
@@ -3457,10 +3350,18 @@
 		(uuid "e9aeaf53-b49f-402c-8265-43b02931bbd6")
 	)
 	(junction
-		(at 62.23 86.36)
+		(at 227.33 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f91e1ae5-09e0-4e5e-be23-e30b7f81fb55")
+		(uuid "eb3993da-9bfd-4f0b-89b9-9df631677de9")
+	)
+	(no_connect
+		(at 124.46 157.48)
+		(uuid "101554b3-8708-454c-9fb2-bb8d0c29038c")
+	)
+	(no_connect
+		(at 80.01 157.48)
+		(uuid "2e5c496e-3eec-4393-98da-d4bc153c4a2b")
 	)
 	(no_connect
 		(at 29.21 143.51)
@@ -3471,12 +3372,44 @@
 		(uuid "63dd82ff-d083-426b-adff-cc5e58d92e4e")
 	)
 	(no_connect
+		(at 29.21 146.05)
+		(uuid "6a428a55-a1f1-4fd4-b5e0-e29bc7f35e03")
+	)
+	(no_connect
 		(at 41.91 151.13)
 		(uuid "77d192e7-7abd-4ad4-b280-ebe1872699e6")
 	)
 	(no_connect
 		(at 29.21 153.67)
 		(uuid "781757dd-268d-453f-9131-49a377cbf22f")
+	)
+	(no_connect
+		(at 124.46 154.94)
+		(uuid "966cff1c-a902-4749-be53-a866242b550b")
+	)
+	(no_connect
+		(at 80.01 160.02)
+		(uuid "ae01c4bc-5bb7-4165-90a9-30aa93cafb57")
+	)
+	(no_connect
+		(at 213.36 54.61)
+		(uuid "c4a57f6f-ece1-4adf-a8df-77bb5c1a555e")
+	)
+	(no_connect
+		(at 213.36 26.67)
+		(uuid "cad1a7b4-8f71-4b53-a87e-a07b9995224b")
+	)
+	(no_connect
+		(at 213.36 57.15)
+		(uuid "d403c1a8-2213-4d21-ae9a-b0c105f301eb")
+	)
+	(no_connect
+		(at 124.46 152.4)
+		(uuid "d508d51c-f056-4e9d-aa58-06b636cbff39")
+	)
+	(no_connect
+		(at 281.94 25.4)
+		(uuid "df51b617-7823-487e-8112-451b4b993c99")
 	)
 	(no_connect
 		(at 41.91 143.51)
@@ -3494,36 +3427,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 96.52) (xy 100.33 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "044c8fc0-49cb-4353-98fd-e37c9fbfc263")
-	)
-	(wire
-		(pts
-			(xy 137.16 101.6) (xy 140.97 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0546e721-9d1f-407a-a7b2-39eed2aaf950")
-	)
-	(wire
-		(pts
-			(xy 29.21 146.05) (xy 24.13 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "076c19be-a9d5-4d30-96c1-099c3f6ee6da")
-	)
-	(wire
-		(pts
 			(xy 135.89 43.18) (xy 135.89 44.45)
 		)
 		(stroke
@@ -3531,26 +3434,6 @@
 			(type default)
 		)
 		(uuid "07f8e842-7d4c-4853-ba2e-73d04c272e0b")
-	)
-	(wire
-		(pts
-			(xy 91.44 107.95) (xy 87.63 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0809d4db-6a89-4796-866c-e5334b6d921b")
-	)
-	(wire
-		(pts
-			(xy 48.26 102.87) (xy 49.53 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09486570-eaa2-4ae2-a8b0-745b9fb17ae6")
 	)
 	(wire
 		(pts
@@ -3564,26 +3447,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 100.33) (xy 49.53 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b5a3fb3-1296-4abc-bad3-2eb9f5de6c9f")
-	)
-	(wire
-		(pts
-			(xy 91.44 100.33) (xy 91.44 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1030e2f4-0d44-47f3-bb1e-3a4bd9417f77")
-	)
-	(wire
-		(pts
 			(xy 73.66 31.75) (xy 73.66 41.91)
 		)
 		(stroke
@@ -3594,16 +3457,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 101.6) (xy 118.11 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11b52a85-fad3-4288-a535-888cfc792863")
-	)
-	(wire
-		(pts
 			(xy 40.64 36.83) (xy 66.04 36.83)
 		)
 		(stroke
@@ -3611,6 +3464,16 @@
 			(type default)
 		)
 		(uuid "12510d0a-6cc0-4080-ab4e-145dcf4e2f22")
+	)
+	(wire
+		(pts
+			(xy 227.33 34.29) (xy 228.6 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1298f006-ebe1-4633-aea2-5b35af86d2e3")
 	)
 	(wire
 		(pts
@@ -3634,16 +3497,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 86.36) (xy 62.23 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a3877b6-1eb6-4fb8-a0c3-d7e31e29a14c")
-	)
-	(wire
-		(pts
 			(xy 114.3 41.91) (xy 114.3 43.18)
 		)
 		(stroke
@@ -3654,13 +3507,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 99.06) (xy 100.33 99.06)
+			(xy 213.36 31.75) (xy 214.63 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1dd1596e-9fac-46aa-b57b-a9fa421a9de0")
+		(uuid "1e77eac0-1284-4fe8-bab2-1f78e899ce4a")
 	)
 	(wire
 		(pts
@@ -3714,16 +3567,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 95.25) (xy 99.06 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c3b4b62-d2ad-40a3-b939-e1ef230c3f2a")
-	)
-	(wire
-		(pts
 			(xy 135.89 43.18) (xy 139.7 43.18)
 		)
 		(stroke
@@ -3731,6 +3574,16 @@
 			(type default)
 		)
 		(uuid "30072f2f-c5c4-40c3-b2e5-4ba08c36bb4f")
+	)
+	(wire
+		(pts
+			(xy 198.12 73.66) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3045b131-5723-4c97-bc7c-59026e51704c")
 	)
 	(wire
 		(pts
@@ -3761,6 +3614,16 @@
 			(type default)
 		)
 		(uuid "39039e41-d239-4c35-b1cd-cd6e61e26839")
+	)
+	(wire
+		(pts
+			(xy 190.5 74.93) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac26a9f-f87b-42b6-bb49-337965e87d50")
 	)
 	(wire
 		(pts
@@ -3804,13 +3667,23 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 101.6) (xy 120.65 101.6)
+			(xy 213.36 39.37) (xy 213.36 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "462755b2-ea54-4f14-9613-7921d6aca993")
+		(uuid "456b77fc-8090-4960-b893-8b4dca223f88")
+	)
+	(wire
+		(pts
+			(xy 190.5 73.66) (xy 190.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a30f321-dedc-4758-bcd4-5ff448462ab4")
 	)
 	(wire
 		(pts
@@ -3854,16 +3727,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 110.49) (xy 128.27 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e05b824-592a-48d1-8b6b-64dd2276523b")
-	)
-	(wire
-		(pts
 			(xy 25.4 36.83) (xy 35.56 36.83)
 		)
 		(stroke
@@ -3874,13 +3737,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 101.6) (xy 36.83 111.76)
+			(xy 227.33 31.75) (xy 227.33 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "543bc2c9-2d70-44d0-b8ce-167289a90541")
+		(uuid "544fbd8c-a012-4c96-a679-aef8026ff4fd")
 	)
 	(wire
 		(pts
@@ -3904,16 +3767,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 101.6) (xy 137.16 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "618efbf5-a17e-403d-8f4f-6a04754a16df")
-	)
-	(wire
-		(pts
 			(xy 25.4 41.91) (xy 45.72 41.91)
 		)
 		(stroke
@@ -3931,16 +3784,6 @@
 			(type default)
 		)
 		(uuid "673da62e-5ce7-48b4-9209-e2dabe29905a")
-	)
-	(wire
-		(pts
-			(xy 128.27 110.49) (xy 128.27 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a10ce3e-13d4-4755-9b80-0f59a7e858be")
 	)
 	(wire
 		(pts
@@ -3964,13 +3807,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 96.52) (xy 99.06 95.25)
+			(xy 182.88 73.66) (xy 190.5 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75be73bd-0b0b-4e52-963a-1fc70cab3217")
+		(uuid "716706a0-382d-4b8b-adef-de70d1a5024f")
 	)
 	(wire
 		(pts
@@ -4004,6 +3847,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 66.04) (xy 190.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9031d9-53f3-46fa-88b4-f62ee6be6157")
+	)
+	(wire
+		(pts
 			(xy 69.85 39.37) (xy 83.82 39.37)
 		)
 		(stroke
@@ -4011,16 +3864,6 @@
 			(type default)
 		)
 		(uuid "7ccd7f08-3c40-4319-b9cc-86e3f9ac44d5")
-	)
-	(wire
-		(pts
-			(xy 91.44 100.33) (xy 99.06 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d6c1df3-6ba7-4a5f-9057-35efcf7289f4")
 	)
 	(wire
 		(pts
@@ -4044,23 +3887,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 101.6) (xy 137.16 102.87)
+			(xy 190.5 64.77) (xy 190.5 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82dfa43a-6f12-4eb0-9775-198d7e07c1c1")
-	)
-	(wire
-		(pts
-			(xy 99.06 99.06) (xy 99.06 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8487d958-1643-4510-affb-a93f667abdea")
+		(uuid "8083a263-da71-427a-ab9a-b29ce4e99ba6")
 	)
 	(wire
 		(pts
@@ -4074,33 +3907,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 110.49) (xy 128.27 110.49)
+			(xy 213.36 34.29) (xy 220.98 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88c673d7-d611-4d5f-86b8-28fb3bae09a9")
-	)
-	(wire
-		(pts
-			(xy 83.82 107.95) (xy 87.63 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c283f22-a1f4-40bf-ab42-70abb39551d1")
-	)
-	(wire
-		(pts
-			(xy 137.16 110.49) (xy 137.16 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cc8a068-3747-4239-bd7f-00aacb76e63a")
+		(uuid "8eb5ff7b-4fad-4484-9b11-79295a69fd8b")
 	)
 	(wire
 		(pts
@@ -4134,16 +3947,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 95.25) (xy 49.53 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92a2eef0-bafa-427f-8141-ad603721bf5a")
-	)
-	(wire
-		(pts
 			(xy 24.13 148.59) (xy 24.13 151.13)
 		)
 		(stroke
@@ -4174,23 +3977,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 114.3) (xy 62.23 111.76)
+			(xy 182.88 73.66) (xy 182.88 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95a6dfea-fdae-4205-bcbd-c8e0784fda59")
-	)
-	(wire
-		(pts
-			(xy 43.18 111.76) (xy 48.26 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a89fd6f-e2d0-4aa4-88a0-d2e5ce96a7d0")
+		(uuid "9a1b9534-5f4f-40ab-8cef-dd0f1e1e9251")
 	)
 	(wire
 		(pts
@@ -4204,33 +3997,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 107.95) (xy 118.11 110.49)
+			(xy 227.33 34.29) (xy 226.06 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9eacc508-5823-489a-ba98-15b212f68f12")
-	)
-	(wire
-		(pts
-			(xy 48.26 102.87) (xy 48.26 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f5b910b-4c71-4139-9f92-c29e841cbc6e")
-	)
-	(wire
-		(pts
-			(xy 36.83 96.52) (xy 36.83 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f827622-d889-4330-a427-db8ebe7ce98a")
+		(uuid "9ef3ad87-cdab-44bf-99d3-f6ca81f21087")
 	)
 	(wire
 		(pts
@@ -4244,26 +4017,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 92.71) (xy 49.53 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a50ab5ff-defc-47c5-8b28-23acc31f5932")
-	)
-	(wire
-		(pts
-			(xy 36.83 86.36) (xy 62.23 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a55d4bcb-69da-4dca-8014-2ff2dfc79030")
-	)
-	(wire
-		(pts
 			(xy 134.62 43.18) (xy 135.89 43.18)
 		)
 		(stroke
@@ -4271,6 +4024,26 @@
 			(type default)
 		)
 		(uuid "ab0ed074-2ff6-4a2c-862c-3f2f87edd722")
+	)
+	(wire
+		(pts
+			(xy 198.12 64.77) (xy 198.12 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf8268f-0297-4563-99f8-c4171ae4869e")
+	)
+	(wire
+		(pts
+			(xy 182.88 66.04) (xy 182.88 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ed895f-e153-45c6-9588-e14ca95bb839")
 	)
 	(wire
 		(pts
@@ -4314,26 +4087,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 95.25) (xy 74.93 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb7f011b-c8de-4eae-bcdb-554c50925378")
-	)
-	(wire
-		(pts
-			(xy 24.13 146.05) (xy 24.13 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c34df206-df1e-4be9-b47f-936d5c3436d9")
-	)
-	(wire
-		(pts
 			(xy 69.85 25.4) (xy 69.85 26.67)
 		)
 		(stroke
@@ -4341,16 +4094,6 @@
 			(type default)
 		)
 		(uuid "c6ccea17-7f40-4704-9303-22e087be2628")
-	)
-	(wire
-		(pts
-			(xy 83.82 106.68) (xy 83.82 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c732779a-d2d2-459b-933e-3c5050084c25")
 	)
 	(wire
 		(pts
@@ -4374,16 +4117,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 101.6) (xy 140.97 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce6f12be-cadb-4539-9585-072e98f157bc")
-	)
-	(wire
-		(pts
 			(xy 116.84 43.18) (xy 119.38 43.18)
 		)
 		(stroke
@@ -4394,13 +4127,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 111.76) (xy 43.18 111.76)
+			(xy 213.36 44.45) (xy 213.36 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0406c6a-8db9-4070-887f-9b60e3e74cb0")
+		(uuid "d67e4bc7-ce77-4bf2-824f-fbc39ce33b9d")
 	)
 	(wire
 		(pts
@@ -4424,6 +4157,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 41.91) (xy 220.98 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df47eb67-6e57-4fca-95ba-2af1048454dd")
+	)
+	(wire
+		(pts
 			(xy 29.21 46.99) (xy 29.21 31.75)
 		)
 		(stroke
@@ -4431,26 +4174,6 @@
 			(type default)
 		)
 		(uuid "e055ae6e-d519-4413-8e76-0dc47ab81602")
-	)
-	(wire
-		(pts
-			(xy 43.18 104.14) (xy 43.18 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1635a30-3452-4c8c-995c-673d5cb78995")
-	)
-	(wire
-		(pts
-			(xy 62.23 111.76) (xy 62.23 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e38fd83d-1ea5-4dac-acf1-a4b0f704b485")
 	)
 	(wire
 		(pts
@@ -4464,23 +4187,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 107.95) (xy 87.63 109.22)
+			(xy 219.71 31.75) (xy 227.33 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e45b2a8a-5ced-4eb5-856d-a549b5d5efe0")
-	)
-	(wire
-		(pts
-			(xy 115.57 100.33) (xy 115.57 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6c797c9-1d7b-4fd5-8f8c-78fd35c783e1")
+		(uuid "e3bad4b0-c77e-441b-b2e7-0beb4aeffad4")
 	)
 	(wire
 		(pts
@@ -4494,26 +4207,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 85.09) (xy 62.23 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e87ce0b0-cb39-4642-a974-b11512914d92")
-	)
-	(wire
-		(pts
-			(xy 118.11 101.6) (xy 118.11 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8b7ce6d-ccc0-47c4-b3ca-3686d3412313")
-	)
-	(wire
-		(pts
 			(xy 73.66 26.67) (xy 73.66 25.4)
 		)
 		(stroke
@@ -4521,16 +4214,6 @@
 			(type default)
 		)
 		(uuid "e90dd175-2a5d-414e-85e0-f32e2e83ea08")
-	)
-	(wire
-		(pts
-			(xy 48.26 111.76) (xy 62.23 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9d9dc45-cf9d-4ddd-b81e-23d6a7dc5fbf")
 	)
 	(wire
 		(pts
@@ -4564,16 +4247,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 106.68) (xy 91.44 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef2e8638-7c96-4f80-a78a-b98549b6c68c")
-	)
-	(wire
-		(pts
 			(xy 41.91 158.75) (xy 45.72 158.75)
 		)
 		(stroke
@@ -4594,26 +4267,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 101.6) (xy 83.82 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f798cd65-aaae-412c-ae0a-c338f89db967")
-	)
-	(wire
-		(pts
-			(xy 74.93 100.33) (xy 91.44 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8584067-d77f-4d6f-8358-1b088a19457e")
-	)
-	(wire
-		(pts
 			(xy 73.66 45.72) (xy 73.66 41.91)
 		)
 		(stroke
@@ -4621,6 +4274,16 @@
 			(type default)
 		)
 		(uuid "f887afb0-b1a6-4a7b-a987-07342164daed")
+	)
+	(wire
+		(pts
+			(xy 213.36 44.45) (xy 220.98 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b671b8-5804-4390-af3a-d46e82991380")
 	)
 	(wire
 		(pts
@@ -4634,16 +4297,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 109.22) (xy 43.18 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faa1b528-f972-45d5-b9fc-4adf2b95f259")
-	)
-	(wire
-		(pts
 			(xy 139.7 43.18) (xy 139.7 41.91)
 		)
 		(stroke
@@ -4651,30 +4304,6 @@
 			(type default)
 		)
 		(uuid "fb9896fe-a43c-48a0-9921-5c33d1c9d563")
-	)
-	(global_label "FDCAN_RX"
-		(shape output)
-		(at 34.29 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "04a72a97-6a43-4936-9a04-ce076d9e540a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.81 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(global_label "MOSI{slash}B"
 		(shape bidirectional)
@@ -4844,30 +4473,6 @@
 			)
 		)
 	)
-	(global_label "FDCAN_TX"
-		(shape input)
-		(at 34.29 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "425f8b0a-d416-4cc9-b4c6-303af324f33f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.1124 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "OUT1"
 		(shape input)
 		(at 124.46 152.4 180)
@@ -4953,6 +4558,30 @@
 		(uuid "a37215d6-6ab4-4a83-baf9-3036d2938c6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 56.2042 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_DM"
+		(shape input)
+		(at 220.98 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a95a989c-b4b8-42ce-9b90-6466503c9a06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.4642 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5060,6 +4689,30 @@
 			)
 		)
 	)
+	(global_label "USB_DP"
+		(shape input)
+		(at 220.98 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0632753-5943-4d63-8aee-d15bf89d600a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.2828 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "OUT2"
 		(shape input)
 		(at 124.46 154.94 180)
@@ -5096,7 +4749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06cd1e61-b811-4569-a03f-aeef8247aadc")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 127 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5162,7 +4815,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5180,7 +4833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d2975fc-a5d6-4fbc-9d33-b5fa678423fd")
-		(property "Reference" "R40"
+		(property "Reference" "R44"
 			(at 48.26 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5242,85 +4895,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 140.97 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1032e2f8-1113-4237-8fc9-dfc0cc66ee1e")
-		(property "Reference" "#PWR055"
-			(at 140.97 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V_CAN"
-			(at 140.97 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 140.97 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "88a56332-2a70-41cd-a271-d200f3df531e")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "#PWR055")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -5337,7 +4912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bbe1c8e-86b3-47df-83da-1633095740bd")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR056"
 			(at 24.13 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -5397,7 +4972,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "#PWR053")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5415,7 +4990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fbb5cc1-5e8a-40dc-8041-7c0a263a9d84")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR050"
 			(at 139.7 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5475,7 +5050,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "#PWR060")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5493,7 +5068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20b498d2-8854-47ef-8ac3-0e6ee1fa5d78")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR051"
 			(at 29.21 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5553,172 +5128,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 36.83 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "223e4d7a-6b07-47ce-92f8-35a55dbe0b35")
-		(property "Reference" "C35"
-			(at 37.338 97.282 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 37.338 101.346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 36.83 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 36.83 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aeeec770-ec0d-41fa-915c-6475e6ba1bf8")
-		)
-		(pin "2"
-			(uuid "7b451808-b393-44e7-99dc-da5d87d2d984")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:L78L05_SOT89")
-		(at 128.27 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24683901-627b-489f-bb03-e89e50fe1489")
-		(property "Reference" "U3"
-			(at 128.27 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L78L05_SOT89"
-			(at 128.27 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 128.27 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
-			(at 128.27 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"
-			(at 128.27 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "7ca2ac2a-c4d4-43b8-b2e3-00607f0057e5")
-		)
-		(pin "2"
-			(uuid "988432f6-7d35-4e28-8dba-5369799f5e8e")
-		)
-		(pin "1"
-			(uuid "541426e6-6e09-40ca-bfdf-65caaf989d38")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "U3")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -5756,7 +5166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XA_B06B-XASK-1-A_1x06_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XA_S06B-XASK-1_1x06_P2.50mm_Horizontal"
 			(at 20.32 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5817,89 +5227,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 105.41 96.52 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3012916d-2bae-45bf-856d-a4a7886078dd")
-		(property "Reference" "J2"
-			(at 106.68 99.0601 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ""
-			(at 106.68 96.5201 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XA_B02B-XASK-1-A_1x02_P2.50mm_Vertical"
-			(at 105.41 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 105.41 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d0e635e3-ae69-45ce-be3e-f3adbd1c5ae9")
-		)
-		(pin "1"
-			(uuid "2545d3a5-e360-4b7c-8145-61630e317fe7")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky_Small")
 		(at 69.85 29.21 270)
 		(unit 1)
@@ -5910,7 +5237,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3537d4df-1877-4ec4-a770-f2197a565b80")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 71.374 30.734 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5975,7 +5302,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5983,7 +5310,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDS")
-		(at 127 52.07 0)
+		(at 190.5 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5992,9 +5319,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "39cabe98-6da6-4087-a57a-675bd3f63750")
-		(property "Reference" "#PWR059"
-			(at 127 58.42 0)
+		(uuid "414c59c4-ddfb-4dbe-9b00-3a9e27c3affc")
+		(property "Reference" "#PWR053"
+			(at 190.5 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6005,7 +5332,7 @@
 			)
 		)
 		(property "Value" "GNDS"
-			(at 127 57.15 0)
+			(at 190.5 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6015,7 +5342,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 52.07 0)
+			(at 190.5 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6026,7 +5353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 52.07 0)
+			(at 190.5 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6037,7 +5364,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 127 52.07 0)
+			(at 190.5 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6048,272 +5375,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "204f9845-04cb-4955-9007-375ac4df6e27")
+			(uuid "c4458d90-1a14-4c18-854f-c616dcd0fd69")
 		)
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 83.82 104.14 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42dc441d-3a1c-42dc-847a-405679e359de")
-		(property "Reference" "R45"
-			(at 86.36 102.8699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "56"
-			(at 86.36 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 83.82 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 83.82 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a4eaac2-cf10-4cbf-819d-57568eddc462")
-		)
-		(pin "2"
-			(uuid "6b1d6dfa-93c6-4149-bab1-d5090a519f8f")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_CAN_LIN:MCP2551-I-SN")
-		(at 62.23 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "45a8de15-631f-42f1-a452-21e62f615f81")
-		(property "Reference" "U2"
-			(at 64.262 84.074 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TJA1050T/CM,118"
-			(at 64.262 86.614 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 62.23 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf"
-			(at 62.23 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 5V supply, SOIC-8"
-			(at 62.23 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af83d3b0-7ac3-487c-8cec-728f6c65aa09")
-		)
-		(pin "2"
-			(uuid "d5895029-d3d8-47a9-9b0c-7b37be841818")
-		)
-		(pin "4"
-			(uuid "a144505f-61bc-4479-b8a9-705b1de35989")
-		)
-		(pin "3"
-			(uuid "100e34d7-2061-4869-ac58-f022a7fc440b")
-		)
-		(pin "7"
-			(uuid "eea43e9b-24a3-4dca-be8a-31879f822e61")
-		)
-		(pin "6"
-			(uuid "fa63eba5-0f70-439d-9d30-37a781ca272f")
-		)
-		(pin "8"
-			(uuid "b86e50cc-d355-4d52-82b6-97320d2a7ae6")
-		)
-		(pin "5"
-			(uuid "2415b41d-6b7c-4caf-b33e-2c884a6d058b")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 24.13 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4662e766-dc55-4ab6-8883-e23dac7f1fdd")
-		(property "Reference" "#PWR065"
-			(at 24.13 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 24.13 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 24.13 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f1f137a5-05f3-436f-8adb-56597a64f5da")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "#PWR065")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6331,7 +5398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46f24756-af37-4166-989b-a4bc80300a6e")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR047"
 			(at 29.21 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -6391,7 +5458,86 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "#PWR049")
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 190.5 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48e848da-989a-43c7-8455-b17f8f7b933d")
+		(property "Reference" "R49"
+			(at 187.452 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 187.452 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 190.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 190.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35f1c694-3eaa-487c-9686-765a2c94acb8")
+		)
+		(pin "2"
+			(uuid "2483f86b-18d2-4261-95fe-a0ff43ae6ace")
+		)
+		(instances
+			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
+				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -6408,7 +5554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64f59b86-2b63-4ee8-8f6c-64729694f0f9")
-		(property "Reference" "R43"
+		(property "Reference" "R47"
 			(at 68.326 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6472,7 +5618,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "R43")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -6480,7 +5626,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 118.11 105.41 0)
+		(at 182.88 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6488,9 +5634,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "66eb7424-66ae-42a0-bea7-47bd55a5893f")
-		(property "Reference" "C38"
-			(at 118.618 103.632 0)
+		(uuid "76cc3805-c54e-4098-8ad7-52b7d4a44dd8")
+		(property "Reference" "C41"
+			(at 177.292 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6500,8 +5646,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220n"
-			(at 118.618 107.696 0)
+		(property "Value" "4.7n"
+			(at 177.292 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6511,8 +5657,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 118.11 105.41 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 182.626 81.788 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6523,7 +5669,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 105.41 0)
+			(at 182.88 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6534,7 +5680,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 105.41 0)
+			(at 182.88 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6545,258 +5691,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8899e6c8-a387-4c4c-8f7c-657e62f8ee00")
+			(uuid "d5d09c3f-e310-40f1-be01-6b61b7a65f61")
 		)
 		(pin "2"
-			(uuid "9bf1a792-1870-466c-b8d7-2b1f3e428cb8")
+			(uuid "d5cdff06-6730-4d70-a432-941f7a0c20db")
 		)
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 128.27 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c9da55d-e7cd-4167-9b27-e487cc33f0e5")
-		(property "Reference" "#PWR057"
-			(at 128.27 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDS"
-			(at 128.27 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 128.27 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a7d97a51-144c-49ed-9155-e74fe6b87e8a")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 129.54 154.94 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "719369f4-a2ff-41ea-b575-5aab3812fe30")
-		(property "Reference" "J5"
-			(at 130.81 156.2101 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 130.81 153.6701 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_MR30PW-M_1x03_P3.50mm_Horizontal"
-			(at 129.54 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 129.54 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "fdaee3be-2c01-4492-adf0-28ce055b13b0")
-		)
-		(pin "2"
-			(uuid "5709bbeb-e3e9-4d5b-a967-886dbc07d385")
-		)
-		(pin "1"
-			(uuid "986942b7-199a-4511-85d5-5917ee4083fe")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 87.63 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77e75dbf-54aa-47c6-9f9a-8ca123ea9912")
-		(property "Reference" "#PWR052"
-			(at 87.63 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDS"
-			(at 87.63 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 87.63 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99af728f-cce2-49e9-8821-2679ec2f499d")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "#PWR052")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -6813,7 +5716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "894fc4b8-ab16-4efd-b00c-4ed1456a8df4")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR058"
 			(at 27.94 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -6873,7 +5776,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "#PWR064")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -6890,7 +5793,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "90e6a981-f7ef-4c8b-a562-80e283b4e346")
-		(property "Reference" "C41"
+		(property "Reference" "C40"
 			(at 136.398 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6954,15 +5857,15 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "C41")
+					(reference "C40")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 87.63 111.76 0)
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 198.12 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6970,31 +5873,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "99ff3b11-457a-43a8-80d6-387a6feba247")
-		(property "Reference" "C37"
-			(at 88.138 109.982 0)
+		(fields_autoplaced yes)
+		(uuid "931f2a3e-1b13-46c7-a8f1-73a373c0a6fd")
+		(property "Reference" "J2"
+			(at 198.12 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "4.7n"
-			(at 88.138 114.046 0)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 198.12 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 87.63 111.76 0)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+			(at 201.93 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7004,8 +5906,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 87.63 111.76 0)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 201.93 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7015,8 +5917,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 87.63 111.76 0)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 198.12 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7026,99 +5928,61 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "4decccfa-c708-4ac1-adef-71d0e881b254")
+		(pin "A9"
+			(uuid "7a0daf88-a9a8-473c-9bde-2f8387598069")
 		)
-		(pin "2"
-			(uuid "7e52dabd-77b7-40f0-8af7-0c34911046ce")
+		(pin "A12"
+			(uuid "2e6be1e7-3291-4fef-9614-55ce9f445e9d")
+		)
+		(pin "A8"
+			(uuid "802309c9-c854-4b86-b2a0-e56fe98e0ff6")
+		)
+		(pin "A5"
+			(uuid "9288fa15-f4fd-4d61-8cca-6d4f7a708c8d")
+		)
+		(pin "A4"
+			(uuid "4d614033-a5ff-40fc-bb47-8611188e8d1c")
+		)
+		(pin "A7"
+			(uuid "995b3dd3-23e8-4a85-b562-d8aa33f61499")
+		)
+		(pin "A1"
+			(uuid "9ef7fdae-1472-4d18-ad9d-130c4488cfac")
+		)
+		(pin "A6"
+			(uuid "d694f590-3fb5-46b1-a454-78aa1a077de8")
+		)
+		(pin "B9"
+			(uuid "0c3425cb-b5d3-4614-b4c3-76ab17b7632f")
+		)
+		(pin "B1"
+			(uuid "3c37db6a-7275-4ac8-a17b-e1fa860c7c77")
+		)
+		(pin "B12"
+			(uuid "5da8db78-10f8-4365-927e-e6bab5d17884")
+		)
+		(pin "SH"
+			(uuid "33da535c-e95b-4811-9b85-7c4da836073f")
+		)
+		(pin "B4"
+			(uuid "c39e86fb-c4c4-452b-b349-1b6cf5458aa5")
+		)
+		(pin "B5"
+			(uuid "b725a2e4-229e-4249-b1fd-6036647e4633")
+		)
+		(pin "B6"
+			(uuid "1b8ae060-cf25-4d9b-a905-5148340e6522")
+		)
+		(pin "B8"
+			(uuid "75175296-e9aa-4b6b-9e08-ef2f9308cce5")
+		)
+		(pin "B7"
+			(uuid "00f08902-bddb-4bac-86c8-9ddcea78eae2")
 		)
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 74.93 160.02 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9ce99938-7a6e-4731-8d64-784c1911fe2e")
-		(property "Reference" "J4"
-			(at 73.66 157.4799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ""
-			(at 73.66 160.0199 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 74.93 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 74.93 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3523127e-e55d-419a-a8de-c25128561896")
-		)
-		(pin "1"
-			(uuid "cc8fdea0-3a5b-4d97-8aa4-107448628012")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7136,7 +6000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d965120-f556-441b-b64d-72f0033e52af")
-		(property "Reference" "R39"
+		(property "Reference" "R43"
 			(at 43.18 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7198,7 +6062,84 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "R39")
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 127 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e0e94a9-3959-4141-ab9a-70a83a5431bf")
+		(property "Reference" "#PWR052"
+			(at 127 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 126.746 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 127 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c76772cf-82a0-482e-849c-39a632a560bc")
+		)
+		(instances
+			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
+				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -7215,7 +6156,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f951b56-be72-4dc1-8df7-384265a82cab")
-		(property "Reference" "R42"
+		(property "Reference" "R46"
 			(at 64.516 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7279,88 +6220,6 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 91.44 104.14 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1619850-0e0c-47d1-b2d3-ebd00009fade")
-		(property "Reference" "R46"
-			(at 93.98 102.8699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "56"
-			(at 93.98 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 91.44 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 91.44 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0c84fb23-e856-4049-b101-f666ec7c2e2e")
-		)
-		(pin "2"
-			(uuid "e0d278bc-9dc7-4997-83ff-24635bf83344")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
 					(reference "R46")
 					(unit 1)
 				)
@@ -7378,7 +6237,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a67c7286-99b5-4dc0-9fdb-91559a053808")
-		(property "Reference" "C40"
+		(property "Reference" "C39"
 			(at 117.348 45.212 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7442,7 +6301,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "C40")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -7460,7 +6319,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a89933a8-eea1-4aec-bd94-59592a96097e")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR049"
 			(at 114.3 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7520,163 +6379,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDS")
-		(at 62.23 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aedf6b6a-d9ad-4a0c-b887-566c34bb0496")
-		(property "Reference" "#PWR051"
-			(at 62.23 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDS"
-			(at 62.23 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
-			(at 62.23 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b233b29-3bf5-4ad0-a682-31b29c6695a2")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 62.23 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3526931-d9dc-487d-b9d7-af2bed905427")
-		(property "Reference" "#PWR050"
-			(at 62.23 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V_CAN"
-			(at 62.23 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 62.23 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8bf85572-e66f-42b8-a0bc-6a2eb9b422d3")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "#PWR050")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7694,7 +6397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b668dfce-0e0d-4ec0-b8e6-e637df5c6fec")
-		(property "Reference" "R38"
+		(property "Reference" "R42"
 			(at 38.1 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7756,15 +6459,15 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "R38")
+					(reference "R42")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 137.16 105.41 0)
+		(lib_id "Device:R_Small")
+		(at 223.52 34.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7772,31 +6475,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b89eb40c-8b6a-4b70-8a59-ae4e7e94b539")
-		(property "Reference" "C39"
-			(at 137.668 103.632 0)
+		(uuid "bedc4589-9dd5-4c95-9c66-6be9ac137999")
+		(property "Reference" "R41"
+			(at 223.52 30.734 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 223.52 32.512 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 137.668 107.696 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 137.16 105.41 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 223.52 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7807,7 +6508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 105.41 0)
+			(at 223.52 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7817,8 +6518,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 137.16 105.41 0)
+		(property "Description" "Resistor, small symbol"
+			(at 223.52 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7829,15 +6530,94 @@
 			)
 		)
 		(pin "1"
-			(uuid "53a23d14-e5a2-4875-9896-9ec331b4ad36")
+			(uuid "95cde2ea-133b-49f4-bc54-18abfe1ca2cd")
 		)
 		(pin "2"
-			(uuid "eff93ba5-b2ad-4865-9baf-7af701d04a67")
+			(uuid "c656b877-e0d8-4233-a847-33c1ebb83948")
 		)
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "C39")
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 217.17 31.75 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c36cde68-9b81-4377-8c3d-cd5c71d9c697")
+		(property "Reference" "R39"
+			(at 217.17 28.194 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 217.17 29.972 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 217.17 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 217.17 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a435bb9-f74e-44ba-8bcd-042dcc4ae6d7")
+		)
+		(pin "2"
+			(uuid "6180a3ed-0d52-4fd1-b08d-538d42774480")
+		)
+		(instances
+			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
+				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -7854,7 +6634,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4ce8492-bbf7-4c2b-9df1-20f5d18ad1d9")
-		(property "Reference" "R44"
+		(property "Reference" "R48"
 			(at 72.136 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7918,88 +6698,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 43.18 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c505c4d0-007c-4d6f-9c1a-ecab1e4ca4d7")
-		(property "Reference" "C36"
-			(at 43.688 104.902 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1n"
-			(at 43.688 108.966 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 43.18 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "45351ec5-f8b3-4be9-953a-d72d08dbf6d5")
-		)
-		(pin "2"
-			(uuid "0380c2c6-4b49-447e-b8b6-e34f97f53c3b")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "C36")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -8016,7 +6715,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca68f700-0c26-45ef-9b41-4d0bb2dee979")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 63.754 30.734 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8081,7 +6780,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8099,7 +6798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd311707-efb3-4842-8566-1dc0c728de31")
-		(property "Reference" "R49"
+		(property "Reference" "R50"
 			(at 30.48 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8163,7 +6862,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "R49")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -8180,7 +6879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cdb667d4-7769-4200-94c5-14020f3b365f")
-		(property "Reference" "R41"
+		(property "Reference" "R45"
 			(at 60.706 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8244,85 +6943,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+8V")
-		(at 115.57 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7735237-ea12-41fc-aeb9-11bd3c5795b7")
-		(property "Reference" "#PWR056"
-			(at 115.57 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+8V"
-			(at 115.57 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+8V\""
-			(at 115.57 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "615cca2a-f390-4bfd-a696-c1f50e0ca220")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "#PWR056")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -8339,7 +6960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3c0a16c-62ab-40b8-b4fd-8da38badb16f")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR057"
 			(at 82.55 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8399,7 +7020,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "#PWR063")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -8416,7 +7037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3ceed9e-3253-4fc0-891c-d979fce7d1f2")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 67.564 30.734 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8481,7 +7102,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8604,6 +7225,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDS")
+		(at 228.6 34.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efc2e48d-a344-486d-9cf8-aa9df615e8fc")
+		(property "Reference" "#PWR048"
+			(at 234.95 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDS"
+			(at 232.41 34.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDS\" , signal ground"
+			(at 228.6 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb5d21b5-d67e-48bf-8cf4-f48d745f4cf1")
+		)
+		(instances
+			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
+				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 33.02 34.29 90)
 		(unit 1)
@@ -8615,7 +7315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f038b891-b854-4677-8666-81888a49a28f")
-		(property "Reference" "R37"
+		(property "Reference" "R40"
 			(at 33.02 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8677,7 +7377,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "R37")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -8694,7 +7394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb0dc52f-1176-4206-be7a-3953728aca8d")
-		(property "Reference" "D9"
+		(property "Reference" "D8"
 			(at 75.184 30.734 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8759,7 +7459,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "D9")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8777,7 +7477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd625750-e337-4606-929f-cc2868448bf1")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR055"
 			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8837,7 +7537,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/1bf68396-6b40-4d95-8764-77bdb180c609"
-					(reference "#PWR062")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

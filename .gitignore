@@ -10,3 +10,4 @@ fp-info-cache
 *.ioc
 *.bak
 fabrication-toolkit-options.json
+_restore_backup_*/
