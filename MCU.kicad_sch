@@ -3695,7 +3695,7 @@
 		)
 		(uuid "d7f1a6b2-2497-405c-b0fb-fff4670b6881")
 	)
-	(text "SCREF=0.206V"
+	(text "SCREF=0.3V"
 		(exclude_from_sim no)
 		(at 218.44 110.49 0)
 		(effects
@@ -4080,12 +4080,6 @@
 		(uuid "a8892326-302a-4599-813a-c86660fd878c")
 	)
 	(junction
-		(at 160.02 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa142d87-357e-43ff-8f42-ea2805becf66")
-	)
-	(junction
 		(at 118.11 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4356,16 +4350,6 @@
 			(type default)
 		)
 		(uuid "2f4d7295-1123-4dc1-88ca-50a89130b5bb")
-	)
-	(wire
-		(pts
-			(xy 160.02 133.35) (xy 160.02 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34cfba55-1091-4a3a-829b-fc4298d18d92")
 	)
 	(wire
 		(pts
@@ -7099,7 +7083,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e07746d-f49a-4d64-8404-98ee8ff7cebc")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 143.51 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7163,7 +7147,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7673,7 +7657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35de4d64-7ee0-4a65-9082-9d636d5399dc")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 128.27 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -7733,7 +7717,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7761,8 +7745,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 168.402 138.938 90)
+		(property "Value" "1k"
+			(at 167.132 138.938 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7831,7 +7815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39598caf-231b-4707-afc4-844c79b68de4")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 195.58 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7842,7 +7826,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3k/1%"
+		(property "Value" "47k/1%"
 			(at 194.564 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7895,7 +7879,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7967,7 +7951,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96446"
+		(property "LCSC" ""
 			(at 36.83 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7988,87 +7972,6 @@
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 160.02 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3bf20733-64d1-448b-95cd-ec53fbea6407")
-		(property "Reference" "R8"
-			(at 153.416 129.794 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 153.416 132.334 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 160.02 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 160.02 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "32227b0c-322a-46f5-8269-c0f5ddaee277")
-		)
-		(pin "2"
-			(uuid "852066c5-2858-49e8-9e02-d74a5986d657")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8218,7 +8121,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96446"
+		(property "LCSC" ""
 			(at 53.34 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8337,7 +8240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "521bc8cb-9228-465b-855f-b154fdaddb9b")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 212.09 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8397,7 +8300,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8547,7 +8450,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96446"
+		(property "LCSC" ""
 			(at 59.69 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -8662,7 +8565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5df66ddd-7967-4c85-9dd2-93ba9d8abaa6")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 212.09 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8722,7 +8625,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8977,7 +8880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65c1db05-cc43-4dec-8392-b1a506179cd6")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 160.02 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9037,7 +8940,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -9217,7 +9120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ee0963a-1426-4a7d-8ebd-10181469353c")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 156.21 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9281,7 +9184,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9454,7 +9357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8237e438-7a24-4d43-84f0-6dc7a3a80e1f")
-		(property "Reference" "R54"
+		(property "Reference" "R1"
 			(at 130.81 23.622 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9516,7 +9419,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "R54")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -10020,7 +9923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac99eb79-28ec-42c1-9711-4fe6bf2e4014")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 195.58 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10031,7 +9934,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220/1%"
+		(property "Value" "4.7k/1%"
 			(at 194.564 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10084,7 +9987,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10259,7 +10162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b2d6a066-9269-40e7-bde1-d2ee7f6a33fb")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 143.51 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10323,7 +10226,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -10341,7 +10244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb8bf0ad-0cad-4a32-8595-bbc3a012b283")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 43.18 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10405,7 +10308,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10555,7 +10458,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96446"
+		(property "LCSC" ""
 			(at 66.04 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10741,84 +10644,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 160.02 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c98873e9-609b-4383-9f15-fad599bcbc19")
-		(property "Reference" "#PWR025"
-			(at 160.02 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 160.02 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 160.02 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "563c3eaf-324d-45e3-897e-bbb0053eafe6")
-		)
-		(instances
-			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
-				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDS")
 		(at 140.97 107.95 0)
 		(unit 1)
@@ -10907,7 +10732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfb5b303-2154-4d87-b30e-43c6653869f0")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR029"
 			(at 138.43 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -10967,7 +10792,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "#PWR030")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11143,7 +10968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daf5a464-65cc-4710-843b-cf982f2a7138")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 45.72 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -11203,7 +11028,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11276,7 +11101,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96446"
+		(property "LCSC" ""
 			(at 40.64 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11624,7 +11449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edf9844a-33d2-4f49-a18e-b1909dc26b34")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 54.61 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -11684,7 +11509,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11702,7 +11527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f362ce13-e63e-4d1a-8a23-51f5f82623cd")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 203.2 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11766,7 +11591,7 @@
 		(instances
 			(project "Mini_STSPIN32G4_3Phase_Motor_Driver"
 				(path "/4be885bc-0594-42b6-972e-d55250e3d817/8fafe8ab-7c04-4c63-83bc-c9faecd54dff"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11919,7 +11744,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96446"
+		(property "LCSC" ""
 			(at 27.94 72.39 0)
 			(hide yes)
 			(show_name no)
