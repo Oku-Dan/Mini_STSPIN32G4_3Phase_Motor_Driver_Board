@@ -6920,7 +6920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 35.56 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -7094,7 +7094,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k/1%"
+		(property "Value" "1k 1%"
 			(at 143.51 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7826,7 +7826,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k/1%"
+		(property "Value" "47k 1%"
 			(at 194.564 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7907,7 +7907,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100n"
 			(at 37.592 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8077,7 +8077,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/16V"
+		(property "Value" "100n 16V"
 			(at 54.102 36.322 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8406,7 +8406,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF/16V"
+		(property "Value" "100n 16V"
 			(at 49.022 67.056 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9934,7 +9934,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k/1%"
+		(property "Value" "4.7k 1%"
 			(at 194.564 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10173,7 +10173,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k/1%"
+		(property "Value" "100k 1%"
 			(at 143.51 99.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10414,7 +10414,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF/16V"
+		(property "Value" "10uF 16V"
 			(at 66.802 36.322 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11057,7 +11057,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1n"
 			(at 43.18 38.1062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11700,7 +11700,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 28.956 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
