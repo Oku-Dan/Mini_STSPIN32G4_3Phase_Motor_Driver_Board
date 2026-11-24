@@ -6262,7 +6262,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14996"
+		(property "LCSC" ""
 			(at 69.85 29.21 90)
 			(hide yes)
 			(show_name no)
@@ -7437,7 +7437,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14996"
+		(property "LCSC" ""
 			(at 66.04 29.21 90)
 			(hide yes)
 			(show_name no)
@@ -7530,7 +7530,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14996"
+		(property "LCSC" ""
 			(at 62.23 29.21 90)
 			(hide yes)
 			(show_name no)
@@ -8457,7 +8457,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14996"
+		(property "LCSC" ""
 			(at 73.66 29.21 90)
 			(hide yes)
 			(show_name no)
